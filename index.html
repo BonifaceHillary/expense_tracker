@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <center><h2>Expense Tracker</h2></center>
+
+  <div class="container">
+    <h4>current Balanc</h4>
+    <h1 id="Balance">$0.00</h1>
+
+    <div class="inc_exp-container">
+
+      <div>
+        <h4>Amount Credicted</h4>
+        <p id="money_plus" class="money-plus">+$0.00</p>
+      </div>
+
+      <div>
+
+       <h4>amount Deducted</h4>
+
+       <p id="money_minus" class="money-minus">-$0.00</p>
+
+    </div>
+    </div>
+
+    <h3>Add New Transaction</h3>
+    <form id="form">
+      <div class="form-control">
+        <label for="text">Transaction Subject</label>
+        <input type="text" id="text" placeholder="Enter text....">
+      </div>
+
+      <div class="form-control">
+        <label for="income-text">Amount Credited</label>
+        <input type="number" id="income_text" placeholder="enter amount">
+      </div>
+
+       <div class="form-control">
+        <label for="expense-text">Amount deducted</label>
+        <input type="number" id="expense_text" placeholder="enter amount">
+      </div>
+
+      <h3>Transactions</h3>
+      <ul id="list" class="list">
+        <!-- <li class="minus">
+          cash <span>$400</span><button class="deleted-btn">X</button>
+
+        </li> -->
+      </ul>
+
+      <div class="btn">Add transactions</div>
+
+    </form>
+
+  </div>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
