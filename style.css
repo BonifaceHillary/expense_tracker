@@ -57,7 +57,7 @@ h1, h2, h3, h4{
   transform: scale(1.o3);
 } 
 
-.button, .delete-btn{
+.button, .delete-btn {
   background-color: var(--primary-color);
   color: #fff;
   border: none;
@@ -71,7 +71,7 @@ h1, h2, h3, h4{
   background-color: var(--hover-color);
 }
 
-input[type="text"], input[type="number"]{
+input[type="text"], input[type="number"] {
   border: 1px solid var(--secondary-color);
   padding: 10px;
   border-radius: 5px;
